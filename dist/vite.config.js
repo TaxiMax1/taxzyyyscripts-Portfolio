@@ -6,5 +6,8 @@ export default defineConfig({
   base: "/forum-website/",
   build: {
     outDir: "dist",
+  },
+  server: {
+    historyApiFallback: true, 
   }
 })
