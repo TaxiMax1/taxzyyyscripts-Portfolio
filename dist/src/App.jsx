@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import LoginPage from './components/signin.jsx';
 import SignUp from './components/signup.jsx';
 import Navbar from './sections/Navbar.jsx';
@@ -9,8 +9,8 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/signin" element={<LoginPage />} />
-        <Route path="/signup" element={<SignUp />} />
+        <Route path="/#/signin" element={<LoginPage />} />
+        <Route path="/#/signup" element={<SignUp />} />
       </Routes>
     </Router>
   );
