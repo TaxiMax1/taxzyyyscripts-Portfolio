@@ -1,0 +1,19 @@
+:root {
+    --bg-color: #f4f4f4;
+    --text-color: #333;
+
+    --login-box: #fff;
+    --login-border: #ccc;
+    --login-secondary-color: #9aa9e6;
+    --login-secondary-hover: #8b99cf;
+    --login-text: #a6afd2;
+    --login-bg-focus: #000;
+
+    --navbar-hover: #c2caea;
+    --navbar-border: #ccc;
+    --navbar-button: #c2caea;
+    --navbar-button-hover: #c2caeab5;
+    --navbar-button-text: #fff;
+
+    --font-family: "Poppins", serif;
+}
