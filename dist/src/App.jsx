@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from './sections/Navbar.jsx';
 import Footer from './sections/footer.jsx';
 import Introducing from './sections/introducing.jsx';
@@ -15,7 +15,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/forum-website" element={
+        <Route path="/" element={
           <>
             <Introducing />
             <Experience />
@@ -24,7 +24,7 @@ function App() {
             <Footer />
           </>
         } />
-        <Route path="/forum-website/about" element={
+        <Route path="/about" element={
           <>
           <AboutPage />
           <Techstack />
@@ -32,7 +32,7 @@ function App() {
           </>
         } />
 
-        <Route path="/forum-website/projects" element={
+        <Route path="/projects" element={
           <>
           <ProjectsPage />
           <Projects />
