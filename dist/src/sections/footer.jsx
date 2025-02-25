@@ -3,7 +3,7 @@ const Footer = () => {
         <div>
             <footer className="footer-container">
                 <div className="footer-left">
-                    <h2 className="footer-header">Taxzyyy <br/>Script.</h2>
+                    <h2 className="footer-header">Taxzyyy <br/>Scripts.</h2>
                 </div>
 
                 <div className="footer-right">
