@@ -36,15 +36,12 @@ body {
 @keyframes zoomIn {
   0% {
     transform: scale(0.5);
-    opacity: 0;
   }
   80% {
     transform: scale(1.2);
-    opacity: 1;
   }
   100% {
     transform: scale(1);
-    opacity: 1;
   }
 }
 
@@ -81,10 +78,11 @@ body {
   justify-content: center;
   align-items: center;
   border: 1px solid var(--navbar-border);
-  backdrop-filter: blur(10px);
   padding: 4px 25px;
   border-radius: 3rem;
-  background-color: transparent;
+  background-color: transparent; 
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   user-select: none;
 }
 
@@ -96,12 +94,11 @@ body {
 .nav-links a {
   text-decoration: none;
   color: var(--text-color);
-  backdrop-filter: blur(10px);
   font-size: .9rem;
   font-weight: 500;
   transition: color 0.3s ease-in-out;
   position: relative;
-  top: 1.5px;
+  top: 3.4px;
 }
 
 .nav-links a:hover {
@@ -487,7 +484,7 @@ body {
   font-size: .9rem;
   font-weight: 300;
   letter-spacing: 2px;
-  margin-left: 685px;
+  margin-left: 785px;
   margin-top: -70px;
   transition: 0.2s ease-in-out;
 }
